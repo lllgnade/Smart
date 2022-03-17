@@ -154,7 +154,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.29</version>
+			<version>5.1.46</version>
 		</dependency>
 		
 		<!-- JSON 라이브러리 --> 
@@ -180,6 +180,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	</dependencies>
     <build>
         <plugins>
+        
+        
+	        <plugin>
+	          <artifactId>maven-war-plugin</artifactId>
+	          <version>3.2.2</version>
+	        </plugin>
+        
+        
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
                 <version>2.9</version>
